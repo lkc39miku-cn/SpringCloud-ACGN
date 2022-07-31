@@ -1,0 +1,10 @@
+server:
+  port: 8081
+  address: localhost
+
+spring:
+  profiles:
+    active: swagger
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher

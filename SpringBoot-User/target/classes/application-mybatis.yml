@@ -1,0 +1,14 @@
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true
+    lazy-loading-enabled: true
+    aggressive-lazy-loading: false
+    lazy-load-trigger-methods: ""
+    cache-enabled: true
+
+pagehelper:
+  reasonable: true
+  support-methods-arguments: true
+  helper-dialect: mysql
